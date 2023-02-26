@@ -1,0 +1,21 @@
+{
+  "swt": "SWT",
+  "vto": "data/dump.txt",
+  "dataset": "data/*.zst.json",
+  "model_cp": "model/",
+  "heads": 8,
+  "esz": 6,
+  "dsz": 6,
+  "hidden_size": 512,
+  "filter_size": 2048,
+  "dropout_rate": 0.1,
+  "max_num_tokens": 4096,
+  "max_length": 64,
+  "num_parallel_calls": 8,
+  "save_ckpt_per_steps": 5000,
+  "optimizer_adam_epsilon": 1e-9,
+  "optimizer_adam_beta2": 0.997,
+  "optimizer_adam_beta1": 0.9,
+  "learning_rate_warmup_steps": 16000,
+  "label_smoothing": 0.1
+}
